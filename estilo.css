@@ -51,10 +51,22 @@ table {
 	background-color: white;
 }
 
-.container-sn{
+.container-sm{
 	background-color: white;
-	width: 50%;
+	width: 40%;
 	margin-top: 12%;
+
+}
+
+.container-sm img{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 4%;
+}
+
+.container-sm form{
+	width: 70%;
+	margin-left: 15%;
 
 }
 
@@ -63,5 +75,5 @@ form{
 }
 
 .form-control{
-	background-color: white;
+	background-color: #fafafa;
 }
