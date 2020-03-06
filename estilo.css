@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -30,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	
 }
 ol, ul {
 	list-style: none;
@@ -43,37 +39,62 @@ q:before, q:after {
 	content: none;
 }
 table {
-	border-collapse: collapse;
+	border-collapse: white;
 	border-spacing: 0;
 }
 
 .fundo{
-	background-color: white;
+	background-color: #f2f2f2;
 }
 
 .container-sm{
-	background-color: white;
 	width: 40%;
-	margin-top: 12%;
-
+	margin-top: 12%
 }
 
-.container-sm img{
-	width: 50%;
-	margin-left: 25%;
+.container-imagem{
+
+	width: 80%;
+	margin-left: 10%;
 	margin-top: 4%;
 }
 
+
 .container-sm form{
-	width: 70%;
-	margin-left: 15%;
+width: 70%;
+margin-left: 15%;
+margin-top: 5%;
+background-color: white;
+padding-left: 5%;
+padding-right: 5%
 
 }
 
-form{
-	border: 2px;
+.form-group{
+	margin-top: 5%;
 }
+
+
+
+
 
 .form-control{
-	background-color: #fafafa;
+	background-color:#f2f2f2;
+}
+
+.btn-info{
+
+	border-radius: 13px;
+	text-shadow: 0.1em 0.1em grey;
+	font-weight: bold;
+	float: right
+}
+
+.form-check{
+	margin-left: -9%;
+	padding-bottom: 10%;
+}
+
+p{
+	margin-left: 20%;
 }
